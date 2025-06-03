@@ -95,3 +95,89 @@ bandit10@bandit:~$ base64 -d data.txt
 ```bash
 bandit11@bandit:~$ cat data.txt | tr '[a-zA-Z]' '[n-za-mN-ZA-M]'
 ```
+
+13) I gave the temporary directory a hard to guess name by using base64 encoding. Then I moved into that directory and copied the data.txt file there. This helped in keeping the home directory clean as there was a lot of decompressing and we could experiment however we wanted.I
+I also had to rename the files everytime I wanted to decompress to fit the extension of the type of compression because the commands were not seeing them as valid files without proper extensions. 
+```bash 
+bandit12@bandit:~$ mktemp -d "/tmp/$(echo -n 'hard_to_guess' | base64).XXXXXX"
+/tmp/aGFyZF90b19ndWVzcw==.LUb4ip
+bandit12@bandit:/$ tmpdir="/tmp/aGFyZF90b19ndWVzcw==.LUb4ip"
+bandit12@bandit:~$ cp data.txt $tmpdir
+bandit12@bandit:/$ cd $tmpdir
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ mv data.txt hexdump.txt
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ xxd -r hexdump.txt > decoded
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ file decoded
+decoded: gzip compressed data, was "data2.bin", last modified: Thu Apr 10 14:22:57 2025, max compression, from Unix, original size modulo 2^32 585
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ mv decoded decoded.gz
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ gzip -d decoded.gz
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ ls -la
+total 9988
+drwx------    2 bandit12 bandit12     4096 Jun  3 07:26 .
+drwxrwx-wt 2118 root     root     10211328 Jun  3 07:26 ..
+-rw-rw-r--    1 bandit12 bandit12      585 Jun  3 07:24 decoded
+-rw-r-----    1 bandit12 bandit12     2646 Jun  3 06:59 hexdump.txt
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ file decoded
+decoded: bzip2 compressed data, block size = 900k
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ mv decoded decoded.bz2
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ bzip2 -d decoded.bz
+bzip2: Can't open input file decoded.bz: No such file or directory.
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ bzip2 -d decoded.bz2
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ ls -l
+total 8
+-rw-rw-r-- 1 bandit12 bandit12  443 Jun  3 07:24 decoded
+-rw-r----- 1 bandit12 bandit12 2646 Jun  3 06:59 hexdump.txt
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ file decoded
+decoded: gzip compressed data, was "data4.bin", last modified: Thu Apr 10 14:22:57 2025, max compression, from Unix, original size modulo 2^32 20480
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ mv decoded decoded.gz
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ gzip -d decoded.gz
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ file decoded
+decoded: POSIX tar archive (GNU)
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ mv decoded decoded.tar
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ tar -xf decoded.tar
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ file decoded
+decoded: cannot open `decoded' (No such file or directory)
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ ls -l
+total 36
+-rw-r--r-- 1 bandit12 bandit12 10240 Apr 10 14:22 data5.bin
+-rw-rw-r-- 1 bandit12 bandit12 20480 Jun  3 07:24 decoded.tar
+-rw-r----- 1 bandit12 bandit12  2646 Jun  3 06:59 hexdump.txt
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ file data5.bin
+data5.bin: POSIX tar archive (GNU)
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ tar -xf data5.bin
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ ls -l
+total 40
+-rw-r--r-- 1 bandit12 bandit12 10240 Apr 10 14:22 data5.bin
+-rw-r--r-- 1 bandit12 bandit12   222 Apr 10 14:22 data6.bin
+-rw-rw-r-- 1 bandit12 bandit12 20480 Jun  3 07:24 decoded.tar
+-rw-r----- 1 bandit12 bandit12  2646 Jun  3 06:59 hexdump.txt
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ file data6.bin
+data6.bin: bzip2 compressed data, block size = 900k
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ mv data6.bin data6.bz2
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ bzip2 -d data6.bz2
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ ls
+data5.bin  data6  data8.bin  decoded.tar  hexdump.txt
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ file data6
+data6: POSIX tar archive (GNU)
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ mv data8.bin data8.gz
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ gzip -d data8.gz
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ ls
+data5.bin  data6  data8  decoded.tar  hexdump.txt
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ file data8
+data8: ASCII text
+bandit12@bandit:/tmp/aGFyZF90b19ndWVzcw==.LUb4ip$ cat data8
+```
+
+14) -i flag stands for identity file which allows us to tell ssh which key to use for authentication.   
+```bash
+bandit13@bandit:~$ ls
+sshkey.private
+bandit13@bandit:~$ ssh -i sshkey.private -p 2220  bandit14@localhost
+bandit14@bandit:~$ cat /etc/bandit_pass/bandit14
+```
+
+15) nc connects us to a service on port 30000, allowing us to send and recieve passwords.
+```bash
+bandit14@bandit:~$ nc localhost 30000
+```
+
+

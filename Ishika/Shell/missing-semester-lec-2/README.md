@@ -86,12 +86,23 @@ Here I created a file save_directory in the /tmp directory. I gave it an absolut
 
 4) 
 ```bash
-find . -type f -name "*.html" | xargs -d '\n' zip file.zip
+$find . -type f -name "*.html" | xargs -d '\n' zip file.zip
 ```
 
-This command looks for all the files with html extension, pipes it into xargs command which zips all these files into file.zip. The -d flag with xargs is used to handle filenames with spaces.
+This command looks for all the files with html extension, pipes it into xargs command which zips all these files into file.zip. The -d flag with xargs is used to handle filenames with specifications, in this case spaces.
 
-5) 
+5) To look for the most recent file in a directory, this can be done simply as:
+```bash
+$ ls -lt | head -n 2 | tail -n 1
+```
+As for looking up the entire filesystem to find the most recent modified file, I tried something along the logic of:
+```bash
+$find / -type f 2>/dev/null | xargs stat -c '%Y %n' | sort -n | tail -n 1
+```
+which seems logically intact but does not work as we want it to. I could not figure it out before the deadline.
+
+
+
 
 
 
