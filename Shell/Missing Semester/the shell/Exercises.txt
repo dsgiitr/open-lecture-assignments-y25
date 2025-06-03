@@ -1,0 +1,12 @@
+1. /bin/bash as output
+2. Directory made using mkdir command
+3. Looked up using man
+4. Done
+5. Done
+6. No execution permission
+7. From man sh, it executes the script by reading the file, so no execution permission is required.
+8. Done, it adds file bits which can be used to change permission
+9. chmod +x ./semester 
+10. date -r ./semester | cat > ./last-modified.txt
+11. cat /sys/class/power_supply/BAT0/capacity
+    cat /sys/class/thermal/thermal_zone0/temp
