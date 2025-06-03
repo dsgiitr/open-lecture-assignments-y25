@@ -6,4 +6,4 @@ The script `script.sh` contains bash commands for grouping files based on there 
 
 When you run the `script.sh` it asks user for the address of directory of which the user wants to sort files for.
 
-![Screenshot](Screenshot 2025-06-03 215907.png)
+![Screenshot](Screenshot.png)
