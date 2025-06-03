@@ -1,8 +1,3 @@
----
-title: '``'
-
----
-
 # Assignment-1 
 ## File Sorter
 This is my submission for final boss assignment.
@@ -11,4 +6,4 @@ The script `script.sh` contains bash commands for grouping files based on there 
 
 When you run the `script.sh` it asks user for the address of directory of which the user wants to sort files for.
 
-![Screenshot 2025-06-03 215907](https://hackmd.io/_uploads/Bk5EFs2Mgx.png)
+![Screenshot](Screenshot 2025-06-03 215907.png)
