@@ -24,5 +24,6 @@ find "$TARGET_DIR" -type f -name "*.log" -mtime +7 -print -delete
 echo "Deleted .log files older than 7 days in $TARGET_DIR"
 
 
-![Script Output](screenshot 2025-06-03 121407.png)
+![Script Output]([screenshot_2025-06-03_121407.png](https://github.com/anjaninandan001/open-lecture-assignments-y25/blob/main/Anjani%20Nandan/Assignment_1/Question_1/Screenshot%202025-06-03%20121407.png))
+
 
