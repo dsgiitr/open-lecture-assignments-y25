@@ -9,5 +9,5 @@ You see a  summary of all commits across all branches,one line at a time
 ##  What does git stash pop do?
 It reapplies the last stashed changes and removes them from the stash stack.
 
-## 💡 When is this useful?
+## When is this useful?
 When you need to quickly switch branches or pull latest changes 
