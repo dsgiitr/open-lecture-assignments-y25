@@ -22,4 +22,5 @@ TARGET_DIR="/DSG"
 find "$TARGET_DIR" -type f -name "*.log" -mtime +7 -print -delete
 
 echo "Deleted .log files older than 7 days in $TARGET_DIR"
-
+## Screenshot
+![image](https://github.com/user-attachments/assets/a069861c-219a-4e5c-88cc-c050b0f1ad9a)
