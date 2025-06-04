@@ -1,0 +1,12 @@
+for version history graph used git log --all --graph --decorate 
+
+last person to modify readme.md: Anish Athalye <me@anishathalye.com>
+Date:   Sat Feb 1 10:12:19 2025 -0800
+commit message:   Update CI status URLs
+
+last commit to collections in _config.yml
+commit a88b4eac326483e29bdac5ee0a39b180948ae7fc
+Author: Anish Athalye <me@anishathalye.com>
+Date:   Fri Jan 17 15:26:30 2020 -0500
+
+commit message:   Redo lectures as a collection

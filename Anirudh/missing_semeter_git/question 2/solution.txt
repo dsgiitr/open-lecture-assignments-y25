@@ -1,0 +1,16 @@
+task is to remove a sensitive file from git history
+
+1. Created a test repo with git init
+2. Added a file secret.txt with sensitive data
+3. Committed it by mistake
+4. Used git filter-repo to completely remove it from history:
+   Command:
+   git filter-repo --path secret.txt --invert-paths
+5 again had to use it by force 
+  Command:
+  git filter-repo --path secret.txt --invert-paths --force
+
+  
+6. Verified using:
+   git log --all -- secret.txt
+

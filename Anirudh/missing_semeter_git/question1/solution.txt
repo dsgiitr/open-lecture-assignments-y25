@@ -1,0 +1,16 @@
+analysed the important and useful git commands 
+
+1. git init
+   - Initializes the .git directory 
+2. git add file.txt
+   - Git creates a blob for the file content.
+   - It also updates the index (staging area) which builds a tree structure for the next commit.
+3. git commit -m "First commit"
+   - Git takes the tree from the index and creates a commit object that points to it.
+   - This commit has a unique SHA, an author, and points to the previous commit (if any).
+4. git branch feature
+   - Git creates a new pointer (ref) to the current commit.
+5. git checkout <branch>
+   - Moves the HEAD to the  branch. HEAD now points to that branch, which points to a commit.
+6. git merge main
+   - Combines trees from both branches and creates a merge commit with two parents.
