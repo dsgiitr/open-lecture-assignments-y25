@@ -5,13 +5,6 @@ input_format="${1##*.}"
 output_format="$2"
 
 
-#to check for necessary parameters
-if [ -z "$input_file" ] || [ -z "$output_format" ]; then
-  echo "Usage: $0 input_file output_format"
-  exit 1
-fi
-
-
 output_file="${input_file%.*}.$output_format"
 text_file="/tmp/tmp_conversion.txt" 
 
@@ -24,7 +17,6 @@ txt-md|epub-md|docx-md|html-md|\
   md-docx|html-docx|docx-pdf|txt-docx|\
   md-epub|txt-epub|html-epub)
     pandoc "$input_file" -o "$output_file"
-    echo "Converted $input_format to $output_format"
     echo "Converted $input_file to $output_format"
     ;;
 

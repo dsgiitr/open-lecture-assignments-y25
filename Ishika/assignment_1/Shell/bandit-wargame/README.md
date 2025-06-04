@@ -96,8 +96,7 @@ bandit10@bandit:~$ base64 -d data.txt
 bandit11@bandit:~$ cat data.txt | tr '[a-zA-Z]' '[n-za-mN-ZA-M]'
 ```
 
-13) I gave the temporary directory a hard to guess name by using base64 encoding. Then I moved into that directory and copied the data.txt file there. This helped in keeping the home directory clean as there was a lot of decompressing and we could experiment however we wanted.I
-I also had to rename the files everytime I wanted to decompress to fit the extension of the type of compression because the commands were not seeing them as valid files without proper extensions. 
+13) I gave the temporary directory a hard to guess name by using base64 encoding. Then I moved into that directory and copied the data.txt file there. This helped in keeping the home directory clean as there was a lot of decompressing and we could experiment here however we wanted.I also had to rename the files everytime I wanted to decompress to show the extension of the type of compression because the commands were not seeing them as valid files without proper extensions. 
 ```bash 
 bandit12@bandit:~$ mktemp -d "/tmp/$(echo -n 'hard_to_guess' | base64).XXXXXX"
 /tmp/aGFyZF90b19ndWVzcw==.LUb4ip
