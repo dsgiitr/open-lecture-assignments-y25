@@ -28,7 +28,28 @@
 ## Lab-12:-
 ![Alt text](/Ishant-Bharti-Git-Assignment-DSG/Git/Git%20Immersion/Labs/Screenshot_20250604_151129.png)
 ![Alt text](/Ishant-Bharti-Git-Assignment-DSG/Git/Git%20Immersion/Labs/Screenshot_20250604_151141.png)
-
+## Lab-13:-
+![Alt text](/Ishant-Bharti-Git-Assignment-DSG/Git/Git%20Immersion/Labs/Screenshot_20250604_151838.png)
+![Alt text](/Ishant-Bharti-Git-Assignment-DSG/Git/Git%20Immersion/Labs/Screenshot_20250604_151838.png)
+## Lab-14:-
+![Alt text](/Ishant-Bharti-Git-Assignment-DSG/Git/Git%20Immersion/Labs/Screenshot_20250604_152727.png)
+![Alt text](/Ishant-Bharti-Git-Assignment-DSG/Git/Git%20Immersion/Labs/Screenshot_20250604_152738.png)
+## Lab-15:-
+![Alt text](/Ishant-Bharti-Git-Assignment-DSG/Git/Git%20Immersion/Labs/Screenshot_20250604_153346.png)
+## Lab-16:-
+![Alt text](/Ishant-Bharti-Git-Assignment-DSG/Git/Git%20Immersion/Labs/Screenshot_20250604_153903.png)
+## Lab-17:-
+![Alt text](/Ishant-Bharti-Git-Assignment-DSG/Git/Git%20Immersion/Labs/Screenshot_20250604_154613.png)
+## Lab-18:-
+![Alt text](/Ishant-Bharti-Git-Assignment-DSG/Git/Git%20Immersion/Labs/Screenshot_20250604_154911.png)
+## Lab-19:-
+![Alt text](/Ishant-Bharti-Git-Assignment-DSG/Git/Git%20Immersion/Labs/Screenshot_20250604_155352.png)
+## Lab-20:-
+![Alt text](/Ishant-Bharti-Git-Assignment-DSG/Git/Git%20Immersion/Labs/Screenshot_20250604_155825.png)
+## Lab-21:-
+![Alt text](/Ishant-Bharti-Git-Assignment-DSG/Git/Git%20Immersion/Labs/Screenshot_20250604_160107.png)
+## Lab-22:-
+![Alt text](/Ishant-Bharti-Git-Assignment-DSG/Git/Git%20Immersion/Labs/Screenshot_20250604_161103.png)
 
 
 
