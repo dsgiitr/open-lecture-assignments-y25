@@ -9,6 +9,6 @@ echo "---------------------------------"
 du -h --max-depth=1 "$HOME" | sort -hr
 ```
 #### Output
-![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/Bash%20Assignment/Screenshot_20250604_192701.png)
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/refs/heads/main/Bash%20Assignment/Screenshot_20250604_192701.png)
 
 
