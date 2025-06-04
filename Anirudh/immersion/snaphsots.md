@@ -1,3 +1,5 @@
+# multiple questions have been combined into a single image in some questions 
+# CONTAINS TILL LAB 30
 ![Image 1](1.png)
 ![Image 2](2.png)
 ![Image 3](3.png)
@@ -14,3 +16,14 @@
 ![Image 14](14.png)
 ![Image 15](15.png)
 ![Image 16](16.png)
+![Image 17](17.png)
+![Image 18](18.png)
+![Image 19](19.png)
+![Image 20](20.png)
+![Image 21](21.png)
+![Image 22](22.png)
+![Image 23](23.png)
+![Image 24](24.png)
+![Image 25](25.png)
+![Image 26](26.png)
+
