@@ -50,7 +50,59 @@
 ![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_160107.png)
 ## Lab-22:-
 ![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_161103.png)
-
-
-
-
+## Lab-23:-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_174959.png)
+## Lab-24:- 
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_175630.png)
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_175726.png)
+## Lab-25:-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_181819.png)
+## Lab-26:-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_182217.png)
+## Lab-27:-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_182351.png)
+## Lab-28:-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_182459.png)
+## Lab-29:-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_182651.png)
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_182941.png)
+## Lab-30:-
+```Nothing to do```
+## Lab-31:- 
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_183335.png)
+## Lab-32:-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_183605.png)
+## Lab-33:-
+```Forgot to take screenshot```
+## Lab-34-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_183754.png)
+## Lab-35:-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_184102.png)
+## Lab-36:-
+```Nothing to do```
+## Lab-37:-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_184319.png)
+## Lab-38:-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_184319.png)
+## Lab-39:-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_184635.png)
+## Lab-40:-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_184751.png)
+## Lab-41:-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_184954.png)
+## Lab-42:-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_185118.png)
+## Lab-43:-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_185225.png)
+## Lab-44:-
+```Nothing to do```
+## Lab-45:-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_185455.png)
+## Lab-46:-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_190109.png)
+## Lab-47:-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_190222.png)
+## Lab-48:-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_190222.png)
+## Lab-49:-
+![Alt text](https://raw.githubusercontent.com/ishantbhartii/Ishant-Bharti-Git-Assignment-DSG/main/Git/Git%20Immersion/Labs/Screenshot_20250604_190526.png)
